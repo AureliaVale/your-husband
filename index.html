@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Husband May Have Left You More Than You Know — Aurelia Vale</title>
+<meta name="description" content="A practical guide for recently widowed women — find unclaimed money, benefits, and assets you didn't know existed. US, UK, Canada, Australia, NZ.">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'EB Garamond', serif;
+    background: #0f0e0c;
+    color: #f0ece4;
+    line-height: 1.8;
+  }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(160deg, #1a1510 0%, #2a2018 100%);
+    padding: 80px 24px 60px;
+    text-align: center;
+    border-bottom: 1px solid rgba(212,175,55,0.15);
+  }
+
+  .series-tag {
+    color: rgba(212,175,55,0.6);
+    font-size: 0.8rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 700px) {
+    .hero-inner {
+      flex-direction: row;
+      text-align: left;
+      align-items: flex-start;
+    }
+  }
+
+  .cover-wrap {
+    flex-shrink: 0;
+  }
+
+  .cover-wrap img {
+    width: 240px;
+    border-radius: 4px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  }
+
+  .hero-text h1 {
+    color: #f0ece4;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 10px;
+  }
+
+  .hero-text .subtitle {
+    color: #D4AF37;
+    font-size: 1.05rem;
+    font-style: italic;
+    margin-bottom: 24px;
+    opacity: 0.85;
+  }
+
+  .hook {
+    color: rgba(240,236,228,0.75);
+    font-size: 1.15rem;
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 32px;
+  }
+
+  .btn {
+    display: inline-block;
+    background: #D4AF37;
+    color: #0f0e0c;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: 14px 36px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+
+  .btn:hover { background: #e8c84a; }
+
+  .price-note {
+    color: rgba(212,175,55,0.6);
+    font-size: 0.9rem;
+    margin-top: 12px;
+  }
+
+  /* Divider */
+  .divider {
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #D4AF37, transparent);
+    margin: 48px auto;
+  }
+
+  /* Body sections */
+  .section {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 60px 24px;
+  }
+
+  .section-title {
+    color: #D4AF37;
+    font-size: 0.8rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    opacity: 0.7;
+    text-align: center;
+  }
+
+  .body-text {
+    color: rgba(240,236,228,0.7);
+    font-size: 1.15rem;
+    line-height: 1.9;
+    margin-bottom: 20px;
+  }
+
+  .body-text strong {
+    color: #f0ece4;
+    font-weight: 500;
+  }
+
+  /* What's inside */
+  .inside {
+    background: linear-gradient(160deg, #1a1510, #2a2018);
+    border: 1px solid rgba(212,175,55,0.12);
+    border-radius: 6px;
+    padding: 40px;
+    margin: 40px 0;
+  }
+
+  .inside h3 {
+    color: #D4AF37;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  .inside ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .inside ul li {
+    color: rgba(240,236,228,0.7);
+    font-size: 1.05rem;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(212,175,55,0.06);
+  }
+
+  .inside ul li::before {
+    content: '→ ';
+    color: #D4AF37;
+    opacity: 0.6;
+  }
+
+  /* Countries */
+  .countries {
+    text-align: center;
+    color: rgba(212,175,55,0.7);
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 40px 0;
+  }
+
+  /* Quote */
+  .quote {
+    border-left: 2px solid rgba(212,175,55,0.3);
+    padding: 16px 24px;
+    margin: 40px 0;
+    font-style: italic;
+    color: rgba(240,236,228,0.6);
+    font-size: 1.1rem;
+  }
+
+  /* CTA bottom */
+  .cta {
+    text-align: center;
+    padding: 60px 24px 80px;
+    background: linear-gradient(160deg, #1a1510 0%, #2a2018 100%);
+    border-top: 1px solid rgba(212,175,55,0.1);
+  }
+
+  .cta h2 {
+    color: #f0ece4;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+    line-height: 1.4;
+  }
+
+  .cta p {
+    color: rgba(240,236,228,0.6);
+    font-size: 1.05rem;
+    font-style: italic;
+    margin-bottom: 32px;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 32px 20px;
+    color: rgba(240,236,228,0.2);
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    border-top: 1px solid rgba(212,175,55,0.08);
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="series-tag">Still Thriving Series · Book 1</div>
+  <div class="hero-inner">
+    <div class="cover-wrap">
+      <img src="https://AureliaVale.github.io/beneath.jpg.jpg" alt="Your Husband May Have Left You More Than You Know">
+    </div>
+    <div class="hero-text">
+      <h1>Your Husband May Have Left You More Than You Know</h1>
+      <div class="subtitle">A Practical Guide for Recently Widowed Women</div>
+      <p class="hook">He worked his whole life for your future.<br>Are you sure you have all of it?</p>
+      <a href="YOUR_LEMON_SQUEEZY_LINK" class="btn">Get Your Copy — $5.99</a>
+      <div class="price-note">Instant download · PDF & ebook formats</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">What This Book Is About</div>
+
+  <p class="body-text">Most widowed women never find out.</p>
+
+  <p class="body-text"><strong>Unclaimed bank accounts.</strong> Life insurance policies nobody mentioned. Pension entitlements sitting untouched. Government benefits that were always yours — but nobody told you to ask.</p>
+
+  <p class="body-text">This book was written for you.</p>
+
+  <p class="body-text"><em>Your Husband May Have Left You More Than You Know</em> guides you — gently, clearly, without overwhelm — through everything you need to check, claim, and protect.</p>
+
+  <div class="inside">
+    <h3>Inside this book:</h3>
+    <ul>
+      <li>How to find unclaimed property and forgotten accounts</li>
+      <li>How to trace life insurance policies he may never have mentioned</li>
+      <li>Pension and retirement accounts — what you are entitled to</li>
+      <li>Government benefits most widows never claim</li>
+      <li>Bank accounts, safe deposit boxes, and digital assets</li>
+      <li>Property and real estate — protecting your home</li>
+      <li>Debts — what you owe and what you absolutely do not</li>
+      <li>Finding trustworthy professional help — free and paid</li>
+      <li>Clear checklists at the end of every chapter</li>
+    </ul>
+  </div>
+
+  <div class="countries">United States · United Kingdom · Canada · Australia · New Zealand</div>
+
+  <p class="body-text">No legal background needed. No financial experience required. Just a woman who deserves to know what her husband left behind — and a book that will help her find it.</p>
+
+  <div class="quote">
+    "You are entitled to what your husband worked for. Do not leave it unclaimed out of uncertainty or exhaustion — the systems exist, the databases are searchable, the benefits are real."
+  </div>
+
+</div>
+
+<div class="cta">
+  <h2>You do not have to figure this out alone.</h2>
+  <p>Written with warmth, clarity, and deep respect for what you are going through.</p>
+  <a href="YOUR_LEMON_SQUEEZY_LINK" class="btn">Get Your Copy — $5.99</a>
+  <div class="price-note" style="margin-top:16px; color: rgba(212,175,55,0.5);">Instant download · Available worldwide</div>
+</div>
+
+<footer>
+  © 2026 Aurelia Vale · AV Collections · Where every word is a world
+</footer>
+
+</body>
+</html>
